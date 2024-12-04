@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+    <meta name="description" content="Portfolio of Anurag - Explore my skills, experience, and projects.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <a href ="#" class="logo">ANURAG</a>
+
+        <nav>
+    <a href="#" class="active"> Home</a>
+    <a href="#skills"> Skills</a>
+    <a href="#education"> Education</a>
+    <a href="#experience"> Experience</a>
+    <a href="#contact-form"> Contact</a>
+    </nav>
+          
+        </nav>
+    </header>
+    <section class ="home">
+        <div class ="home-img">
+            <img src ="IMG_3134.jpg" alt="Profile Picture">
+        </div>
+        <div class ="home-content">
+            <h1>Hi, It's <span>Anurag</span></h1>
+            <h2 class="typing-text">I'm an International student, I love to watch science fiction movies in my free time. I Love learning new things and connecting with people who share similar Interest. I'm always up for a good conversation and looking forward for new experiences.</h2><hr>
+        
+        
+            
+        </div>
+
+        
+    </section>
+        <br>
+      
+     <section id="skills">
+            <h1>My Key Skills</h1><br>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Time Management</li>
+                <li>Self Motivation</li>
+                <li>Creativity</li>
+            </ul> 
+        </section>            
+    <section id="education">
+                <h1>Education:</h1><br>
+                <p>Cloud Computing Post-Diploma certificate(2024-Present)</p>
+                <p>Bachelor in Computer Application - DAV Institute of Engineering & Technology (2020-2023) (Jalandhar,Punjab,INDIA)</p>
+                <p>10th & 12th: Auckland Grammer Senior Secondary School (Moga,Punjab,INDIA)</p>
+                
+    </section>
+            
+    <section id="experience">
+                <h2>Work Experience:</h2><br>
+                <p>Computer Instructor for 1 year in PMKVY Program</p>
+                <p>Computer Technician</p>
+                <p>Mobile Repair Technician</p>
+    </section>       
+
+<section id="contact-form" class="contact-form">
+    <h2>Contact Me</h2>
+    <form action="/submit-form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+    
+    
+    <div>
+        <style>
+            .social-media {
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                align-items: center;
+            }
+            .social-media a img {
+                width: 40px;
+                height: 40px;
+                transition: transform 0.2s ease;
+            }
+            .social-media a img:hover {
+                transform: scale(2.0);
+            }
+        </style>
+  
+    
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
+            </a>
+         
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn Logo">
+            </a>
+        </div>
+    </div>
+    <br><br>
+  <center><a href ="secondpage.html" class="btn">Next page</a></center>  
+
+</section>
+</body>
+</html>
